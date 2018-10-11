@@ -1,0 +1,40 @@
+Dr. Watson
+Will See You...
+Someday
+
+
+IBM'S GAME-SHOW-WINNIGN AI STRUGGLES TO FIND THE ANSWERS IN HEALTH CARE
+
+By Brandon Keim
+
+
+FOUR YEARS AGO, NEIL MEHTA WAS
+among the 15 million people who watched Ken Jennings and Brad Rutter - the World's greatest "Jeopardy!" players - lose to an IBM - designed collection of circuits and algorithms called Watson.
+
+Mehta, a physician and professor at the world - renowned Cleveland Clinic, wondered what might be possible if Watson's powers were turned to medicine: "I knew that the world was changing. And if not Watson, then something like it, with artificial intelligence, was needed to help us."
+
+Mehta wasn't the first doctor to dream of a computer coming to his rescue. There's a rich history of medical AIs, from Internist-1 - a 1970s-era program that encoded the expertise of internalmedicine guru Jack Myers and gave rise to the popular Quick Medical Reference program - to Contemporary software like Isabel and DXplain, which can outperform human doctors in making diagnoses. Even taken-for-granted ubiquities like PubMed literature searches and automated patient-alert systems demonstrate forms of intelligence.
+
+So it's no wonder that shortly after Watson's "Jeopardy!" triumph, IBM announced that it would make Watson available for medical applications. The teck press buzzed in anticipation of "Dr. Watson." What is medicine, after all, but a series of logical inferences based on data? Four years later, however, the predicted revolutionhas yet to occur. "They are making some headway," says Robert Wachter, a specialist in hospital medicine at the University of California, San Francisco, and author of The Digital Doctor: Hope, Hype, and Harm at the Dawn of Medicine's Computer Age (McGraw-Hill, 2015). "But in terms of a transformative technology that is changing the world, I don't think anyone would say Watson is doing that today."
+
+Where's the delay? It's in our own minds, mostly. IBM's extraordinary AI has matured in powerful ways, and the appearance that things are going slowly reflects largely on our own unrealistic expectations of instant disruption in a world of Uber and Airbnb.
+
+
+IMPRESSIVE AS THAT ORIGINAL
+"Jeopardy!"-blitzing Watson was, in medical context such an automaton is not really useful. After all, that version of Watson was fine-tuned specifically for one trivia game.
+
+Watson's engine needed to be adapted for medicine and, within that broad field, to specific disciplines and tasks. Efforts to do so have spawned many different medical Watsons. Some of the first could be found at the Cleveland Clinic, Memorial Sloan Kettering Cancer Center, MD Anderson Cancer Center, and insurance company WellPoint (now called Anthem), each of which started working with IVM to develop its own health-care-adapted version of Watson about three years ago. Two years later, as the hardware shrank from room-size to small enough for a server rack, another round of companies signed on to collaborate with IBM. Among these are Welltok, makers of personal health advisory software; @Point of Care, which is trying to customize treatments for multiple sclerosis; and Modernizing Medicine, which uses Watson to analyze hundreds of thousands of patient records and build treatment models so doctors can see how similar cases have been handled.
+
+Watson's training has been slow going, especially as each iteration needs to be tested with new questions. And Watson's text-processing powers, which might seem to make it an ideal tool for handling the rapid growth of medical literature, have proved to be of limited value. In many cases, as when modeling the decisions of top lung-cancer specialists at Memorial Sloan Kettering, these aren't yet journal articles or clinical guidelines with the right answers.
+
+Another issue is date quality. WatsonPaths, which Mehta has been developing at the Cleveland Clinic, is the closest thing yet to that archetypal Dr. Watson, but it can work only if the AI can make sense of a patient's records. As of now, electronic medical records are often an arcane collection of error-riddled date originally structured with hospital administration in mind rather than patient care.
+
+
+WHILE ITS "JEOPARDY!" TRIUMPH
+was "a great shot in the arm" for the field, says Mark Musen, a professor of medical informatics at Stanford, IBM is just one of many companies and institutions in the medical-AI space.
+
+Take the AI that Massachusetts General Hospital developed called QPID (Queriable Patient Inference Dossier), which analyzes medical records and was used in more than 3.5 million patient encounters last year. Diagnostic programs like DXplain and Isabel are alreadyendorsed by the American Medical Association, and startup company Enlitic is Working on its own diagnostics. The American Society of Clinical Oncology built its big-data-informed CancerLinQ program as a demonstration of what the Institute of Medicine, part of the U.S. National Academies, called a "learning health system." Former Watson developer Marty Kohn is now at Sentrian, designing programs to analyze data generated from homebased health-monitoring apps.
+
+Meanwhile, IBM is making its own improvements. In addition to refinements in learning techniques, Watson's programmers have recently added speech recognition and visual-pattern analysis to their toolbox. Future versions might, like the fictional HAL 9000 of sci-fi fame, see and hear. They might also collaborate if innovations in individual deployments are eventually shared.
+
+How will all this shake out? When will AI transform medicine, or at least help improve it in significant ways? It's too soon to say. Medical AI is about where personal computers were in the 1970s, when IBM was just beginning to work on desktop computers, Bill Gates was writing Altair BASIC, and a couple of guys named Steve were messing around in California garage. The application of artificial intelligence to health care will, similarly, take years to mature. But it could blossom into something big.
