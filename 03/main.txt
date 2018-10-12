@@ -1,0 +1,39 @@
+IBM Watson Makes a Treatment Plan for Brain-Cancer Patient in 10 Minutes; Doctors Take 160 Hours
+
+By Eliza Strickland
+Posted 11 Aug 2017 | 15:00 GMT
+
+
+In treating brain cancer, time is of the essence.
+
+A new study, in which IBM Watson took just 10 minutes to analyze a brain-cancer patient’s genome and suggest a treatment plan, demonstrates the potential of artificially intelligent medicine to improve patient care. But although human experts took 160 hours to make a comparable plan, the study’s results weren’t a total victory of machine over humans.
+
+The patient in question was a 76-year-old man who went to his doctor complaining of a headache and difficulty walking. A brain scan revealed a nasty glioblastoma tumor, which surgeons quickly operated on; the man then got three weeks of radiation therapy and started on a long course of chemotherapy. Despite the best care, he was dead within a year. While both Watson and the doctors analyzed the patient’s genome to suggest a treatment plan, by the time tissue samples from his surgery had been sequenced the patient had declined too far.
+
+IBM has been outfitting Watson, its “cognitive computing” platform, to tackle multiple challenges in health care, including an effort to speed up drug discovery and several ways to help doctors with patient care. In this study, a collaboration with the New York Genome Center (NYGC), researchers employed a beta version of IBM Watson for Genomics.
+
+IBM Watson’s key feature is its natural-language-processing abilities. This means Watson for Genomics can go through the 23 million journal articles currently in the medical literature, government listings of clinical trials, and other existing data sources without requiring someone to reformat the information and make it digestible. Other Watson initiatives have also given the system access to patients’ electronic health records, but those records weren’t included in this study.
+
+Laxmi Parida, who leads the Watson for Genomics science team, explains that most cancer patients don’t have their entire genome (consisting of 3 billion units of DNA) scanned for mutations. Instead they typically do a “panel” test that looks only at a subset of genes that are known to play a role in cancer.
+
+The new study, published in the journal Neurology Genetics, used the 76-year-old man’s case to answer two questions. First, the researchers wanted to know if scanning a patient’s whole genome, which is more expensive and time consuming than running a panel, provides information that is truly useful to doctors devising a treatment plan. “We were trying to answer the question, Is more really more?” says Parida. 
+
+The answer to that question was a resounding yes. Both the NYGC clinicians and Watson identified mutations in genes that weren’t checked in the panel test but which nonetheless suggested potentially beneficial drugs and clinical trials. 
+
+Secondly, the researchers wanted to compare the genomic analysis performed by IBM Watson to one done by NYGC’s team of medical experts, which included the treating oncologist, a neuro-oncologist, and bioinformaticians.
+
+Both Watson and the expert team received the patient’s genome information and identified genes that showed mutations, went through the medical literature to see if those mutations had figured in other cancer cases, looked for reports of successful treatment with drugs, and checked for clinical trials that the patient might be eligible for. It took the humans “160 person hours” to formulate recommendations, while Watson got there in 10 minutes. 
+
+However, while Watson’s solution was first, it might not have been best. The NYGC clinicians identified mutations in two genes that, when considered together, led the doctors to recommend the patient be enrolled in a clinical trial that targeted both with a combinatorial drug therapy. If the patient had still been healthy enough, he would have been enrolled in this trial as his best chance of survival. But Watson didn’t synthesize the information together this way, and therefore didn’t recommend that clinical trial. 
+
+While it’s tempting to view the study as a competition between human and artificial intelligence, Robert Darnell, director of the NYGC and a lead researcher on the study, says he doesn’t see it that way. “NYGC provided clinical input from oncologists and biologists,” he writes in an email. “Watson provided annotation that made the analysis faster. Given that each team addressed different issues, this comparison is apples to oranges.”
+
+IBM’s Parida notes that the cost of sequencing an entire genome has plummeted in recent years, opening up the possibility that whole-genome sequencing will soon be a routine part of cancer care. If IBM Watson, or AI systems like it, are given swift access to this data, there’s a chance they could provide treatment recommendations in time to save the lives of people like the brain-cancer patient in this study.
+
+Darnell says he hopes IBM Watson will become a routine part of cancer care because the amount of data that clinicians are dealing with is already overwhelming. “In my view, having doctors cope with the avalanche of data that is here today, and will get bigger tomorrow, is not a viable option,” he says. “Time is a key variable for patients, and machine learning and natural-language-processing tools offer the possibility of adding something qualitatively different than what is currently available.”
+
+This study was part of a collaboration between IBM and the NYGC announced in 2014, which set out to study the genomics of a few dozen brain-cancer patients. Darnell says the team is now working on a paper about the outcomes for 30 patients enrolled as part of that larger study. 
+
+It’s worth noting that not everyone is sold on the value of IBM Watson for health care: A recent Wall Street analyst report declared that the Watson effort is unlikely to pay off for shareholders. Even though it called Watson “one of the more mature cognitive computing platforms available today,” the report argued that Watson’s potential customers will balk at the cost and complications of integrating the AI into their existing systems. 
+
+The report also called attention to a fiasco at the MD Anderson Cancer Center in Texas, in which an IBM Watson product for oncology was shelved—after the hospital had spent US $62 million on it. 
