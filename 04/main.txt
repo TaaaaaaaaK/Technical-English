@@ -1,0 +1,46 @@
+How Much Artificial Intelligence Does IBM Watson Have?
+
+July 12, 2017 | by James Wang, ARK Analyst | Digital
+
+
+To gauge the future of IBM, one needs to understand its cognitive computing platform, Watson. As its core business declines, IBM is counting on Watson to drive growth in new areas such as analytics, healthcare, internet of things, and security. But, what kind of artificial intelligence (AI) is IBM Watson? And, how does it compare to the many deep learning based products entering the market today?
+
+Watson started as a follow-on project to IBM DeepBlue, the computer and AI program that defeated world chess champion Gary Kasparov.  DeepBlue demonstrated that a computer could defeat a human in chess, a game with well-defined rules and limited, fully visible solutions.
+
+The real world, however, is much more complicated: information often is unstructured, problems ill defined, and solutions probabilistic at best. To equip AI to deal with the real world, IBM challenged its computer and data scientists to create a program that could defeat human contestants at Jeopardy!, a quiz show requiring answers to natural language questions over  broad domains of knowledge otherwise known as unstructured data.
+
+Enter Watson.  Watson conquered this challenge in 2011, marking a major milestone in artificial intelligence.
+
+As a quick refresher, artificial intelligence can be divided into three categories, as shown above.1 The first category is AI itself, defined broadly and covering all possible approaches to simulating intelligence. A subset of artificial intelligence is machine learning (ML), which uses data and experience automatically to tune algorithms. Finally, a subset of ML is deep learning (DL). Deep learning uses brain inspired algorithms – neural networks – to simulate the learning process. Because of the data explosion associated with social networks, connected sensors, and seismic oil exploration among others, machine learning has become quite popular. Among ML algorithms, deep learning can absorb the most data and has broken many AI records, becoming the most promising approach to artificial intelligence.
+
+IBM Watson is a machine learning system, trained primarily by data as opposed to rules. As a system, it is best described as a heterogeneous ensemble of experts. To unpack: it’s an ensemble in that it’s made up of many smaller, functional parts; it is heterogeneous since the parts are not alike; and they are experts since each specialize in solving a specific sub-problem. A biology analogy might be the system of organs—a human being uses different organs, each specializing in some sub-task, to sustain life.
+
+The diagram above illustrates Watson’s system architecture. At a high level, it works as follows:
+
+    ・The natural language processing engine, “Question and Topic Analysis,” tries to understand a question by parsing it into words, mapping the relationship between words, and isolating the subject of the question. The parsing system is Slot Grammar, one of the few rules-based algorithms Watson uses.
+
+    ・After Watson interprets the question, it searches its myriad sources for answers, much like Google’s conventional search engine does. Watson can sift through unstructured data, such as Wikipedia and newswires, as well as structured databases and data.
+
+    ・After it generates potential answers, Watson gathers additional evidence. This secondary search surfaces new information that elevates strong answers and eliminates weak ones. Watson then computes a confidence score for each answer based on the supporting evidence.
+
+    ・Finally, IBM Watson selects the answer with the highest confidence score, and is correct 71% of the time.
+
+Important to note, IBM Watson is a massively parallel program, so each stage of the inference process can generate many answer candidates. A single question, for example, can generate 100 answer candidates, each with 100 evidence sources, and each scored by 100 algorithms. Thus, one question can generate a million confidence scores, which must be reduced to a single confidence number. Moving from a large number of inputs to a small number of outputs is a classification task which Watson calls “Final Confidence Merging and Ranking” and requires the use of classic machine learning.
+
+According to IBM, to conquer the Jeopardy! challenge, the Watson team experimented with a number of machine learning algorithms, among them logistic regression, support vector machines, decision trees, and multi-layered neural networks or deep learning, and selected a logistic regression classifier as the most robust solution.
+
+It’s interesting that IBM tinkered with deep learning for Watson but it didn’t perform well enough to justify inclusion. In the last five years, deep learning has outperformed other machine learning algorithms in a variety of tasks. Why didn’t it do the same for Watson?
+
+One possible answer is that IBM didn’t have enough training data. Generally, deep learning outperforms other algorithms when trained with lots of data. As shown below, AlexNet – the famous deep neural network image classifier that won ILSVRC in 2012 – used 1.2 million training examples. A problem more comparable to Jeopardy!, a modern reading comprehension dataset such as SQuAD, trains with 100,000 examples.  Watson trained with only 25,000 questions. While the limited dataset may have disadvantaged deep learning in the Jeopardy! challenge, recent deep learning based algorithms have performed well with even smaller datasets.
+
+Deep learning also may have underperformed because too much information had been stripped out by the time it reached the classification stage: the classifier operates on confidence scores, rather than candidate answers. A key strength of deep learning is that it automatically extracts useful features from the original data; passing it highly processed input such as confidence scores, removes that advantage.
+
+To summarize, IBM Watson is a system that performs open domain question-answering. It uses multiple AI techniques such as rule based language parsing, knowledge bases, search, and statistical machine learning. Its strength is that it can interpret complex queries expressed in natural language, consult many data sources, generate many possible answers, score them based on evidence, and select answers with good accuracy.
+
+That said, the AI world has changed dramatically since Watson’s debut. Specifically, deep learning has emerged as the leading algorithm for AI development. In the span of five years, image recognition, speech recognition, speech synthesis, machine translation, drug discovery, and robotics all have reached new levels of performance thanks to deep learning.
+
+Likewise, DL has displaced traditional machine learning methods in question answering.  A well-known question answering benchmark is TREC QA, Text REtrieval Conference Question Answering, which is approaching 80% accuracy, as shown below, thanks to deep learning based techniques which process text. While we do not know how Watson performs in TREC QA, we do know that IBM Research is switching gears: it published TREC QA results from studies in 2015–2017 that were deep learning based and performed at or near state-of-the-art.
+
+In 2015, IBM made a strong push to add deep learning capabilities to Watson, adding speech recognition and image recognition to its BlueMix platform in February. That March, IBM acquired AlchemyAPI, a startup specializing in deep learning based text and image analysis. The company says it serves 40,000 developers and handles three billion API calls per month.
+
+Despite being designed prior to the advent of deep learning, IBM Watson remains surprisingly relevant. It is not a monolithic algorithm, but a modular system that can incorporate new data sources and algorithms, including deep learning. IBM’s numerous acquisitions have given the company a rich set of training data for Watson. If IBM executes, Watson has the potential to bring AI to healthcare, analytics, internet of things, financial services, and more.
